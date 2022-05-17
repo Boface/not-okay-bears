@@ -52,7 +52,7 @@ const MintCard = styled.div`
         rgba(255, 255, 255, 0.02) 80.27%
     );
     background-blend-mode: overlay;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(22px);
     border-radius: 40px;
     border-top: 1px solid white;
 `;
