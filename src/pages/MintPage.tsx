@@ -25,6 +25,7 @@ const BackgroundEl = styled.img`
     fixed
     bottom-0
     min-w-full
+    pointer-events-none
  `};
 `;
 
@@ -150,6 +151,21 @@ const MintPage = () => {
                         20% donated towards mental health
                     </h2>
                 </MintCard>
+            </div>
+            <div className="flex w-full max-w-[700px] justify center items-center px-8 z-10">
+                <h2 className="font-main font-normal text-lg md:text-xl lg:text-xl mb-16 text-white tracking-wide text-center">
+                    <span className="text-[#F51F1F] text-xl font-main lg:text-2xl">
+                        NO
+                    </span>{" "}
+                    roadmap,{" "}
+                    <span className="text-[#F51F1F] text-xl font-main lg:text-2xl">
+                        NO
+                    </span>{" "}
+                    vibes, just a bunch of bears that are{" "}
+                    <span className="text-[#F51F1F] text-xl font-main lg:text-2xl">
+                        NOT OKAY.
+                    </span>
+                </h2>
             </div>
         </PageContainer>
     );
