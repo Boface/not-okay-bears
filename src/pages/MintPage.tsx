@@ -33,6 +33,7 @@ const Logo = styled.img`
     ${tw`
     relative
     w-[100px]
+    pointer-events-none
  `};
 `;
 
