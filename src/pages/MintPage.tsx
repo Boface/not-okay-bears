@@ -70,7 +70,8 @@ const Button = styled.button`
     text-white
     tracking-normal
     font-main
-    text-lg
+    text-sm
+    md:text-lg
     mt-5
     hover:bg-[#CE921D] 
     transition
@@ -88,8 +89,9 @@ const MintPage = () => {
 
     return (
         <PageContainer>
-            <div className="flex justify-start items-center mb-5 p-8 w-full">
+            <div className="flex justify-between items-center mb-5 p-8 w-full">
                 <Logo src={logo} />
+                <Button>Connect Wallet</Button>
             </div>
             <BackgroundEl src={background} />
             <div className="flex w-full max-w-[700px] justify center items-center px-8">
@@ -101,7 +103,7 @@ const MintPage = () => {
                 </h2>
             </div>
             <div className="flex flex-col items-center mt-4 mb-16">
-                <img src={bear} alt="bear" className="w-[200px] h-[200px]" />
+                <img src={bear} alt="bear" className="w-[250px] md:w-[330px]" />
 
                 <MintCard>
                     <h2 className="font-main text-xl md:text-2xl lg:text-3xl mb-8 text-white tracking-wide">
